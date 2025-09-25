@@ -20,9 +20,9 @@ dependencies = [
 ]
 
 [project.scripts]
-kickoff = "src.lead_score_flow.main:kickoff"
-plot = "src.lead_score_flow.main:plot"
-run_crew = "src.lead_score_flow.main:kickoff"
+kickoff = "src.lead_score.main:kickoff"
+plot = "src.lead_score.main:plot"
+run_crew = "src.lead_score.main:kickoff"
 
 [build-system]
 requires = [
