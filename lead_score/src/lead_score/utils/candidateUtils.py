@@ -1,6 +1,6 @@
 from typing import List
 
-from lead_score_flow.flow_types import Candidate, CandidateScore, ScoredCandidate
+from lead_score.flow_types import Candidate, CandidateScore, ScoredCandidate
 
 
 def combine_candidates_with_scores(

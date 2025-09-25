@@ -1,7 +1,6 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-
-from lead_score_flow.flow_types import CandidateScore
+from lead_score.flow_types import CandidateScore
 
 
 @CrewBase
