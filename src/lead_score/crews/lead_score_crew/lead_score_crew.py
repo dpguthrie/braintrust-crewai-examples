@@ -8,8 +8,8 @@ from lead_score.flow_types import CandidateScore
 class LeadScoreCrew:
     """Lead Score Crew"""
 
-    agents_config = "../../config/lead_score_crew/agents.yaml"
-    tasks_config = "../../config/lead_score_crew/tasks.yaml"
+    agents_config = "config/lead_score_crew/agents.yaml"
+    tasks_config = "config/lead_score_crew/tasks.yaml"
 
     @agent
     def hr_evaluation_agent(self) -> Agent:
