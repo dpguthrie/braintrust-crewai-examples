@@ -1,5 +1,6 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
+
 from lead_score.flow_types import CandidateScore
 
 
@@ -7,8 +8,8 @@ from lead_score.flow_types import CandidateScore
 class LeadScoreCrew:
     """Lead Score Crew"""
 
-    agents_config = "config/agents.yaml"
-    tasks_config = "config/tasks.yaml"
+    agents_config = "../../config/lead_score_crew/agents.yaml"
+    tasks_config = "../../config/lead_score_crew/tasks.yaml"
 
     @agent
     def hr_evaluation_agent(self) -> Agent:
