@@ -16,6 +16,7 @@ class LeadScoreCrew:
         return Agent(
             config=self.agents_config["hr_evaluation_agent"],
             verbose=True,
+            llm="gpt-4o",
         )
 
     @task

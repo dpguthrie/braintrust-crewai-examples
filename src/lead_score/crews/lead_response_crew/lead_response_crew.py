@@ -15,6 +15,7 @@ class LeadResponseCrew:
             config=self.agents_config["email_followup_agent"],
             verbose=True,
             allow_delegation=False,
+            llm="gpt-4o",
         )
 
     @task
