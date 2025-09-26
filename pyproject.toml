@@ -1,5 +1,5 @@
 [project]
-name = "lead_score_flow"
+name = "lead_score"
 version = "0.1.0"
 description = "lead_score_flow using crewAI"
 authors = [
