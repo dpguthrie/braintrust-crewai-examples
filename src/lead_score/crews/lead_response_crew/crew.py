@@ -6,8 +6,8 @@ from crewai.project import CrewBase, agent, crew, task
 class LeadResponseCrew:
     """Lead Response Crew"""
 
-    agents_config = "config/lead_response_crew/agents.yaml"
-    tasks_config = "config/lead_response_crew/tasks.yaml"
+    agents_config = "config/agents.yaml"
+    tasks_config = "config/tasks.yaml"
 
     @agent
     def email_followup_agent(self) -> Agent:

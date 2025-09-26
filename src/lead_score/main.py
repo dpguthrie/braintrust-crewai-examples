@@ -8,8 +8,8 @@ from opentelemetry import trace
 from pydantic import BaseModel
 
 from lead_score.constants import JOB_DESCRIPTION
-from lead_score.crews.lead_response_crew.lead_response_crew import LeadResponseCrew
-from lead_score.crews.lead_score_crew.lead_score_crew import LeadScoreCrew
+from lead_score.crews.lead_response_crew.crew import LeadResponseCrew
+from lead_score.crews.lead_score_crew.crew import LeadScoreCrew
 from lead_score.flow_types import Candidate, CandidateScore, ScoredCandidate
 from lead_score.tracing import setup_tracing
 from lead_score.utils.candidateUtils import combine_candidates_with_scores
