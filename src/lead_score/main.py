@@ -108,7 +108,7 @@ class LeadScoreFlow(Flow[LeadScoreState]):
         print("2. Redo lead scoring with additional feedback")
         print("3. Proceed with writing emails to all leads")
 
-        choice = input("Enter the number of your choice: ")
+        choice = 1
 
         if choice == "1":
             print("Exiting the program.")
