@@ -1,0 +1,17 @@
+Subject: Update on Your Application - CrewAI  
+
+Dear Jessica,  
+
+I hope this message finds you well. Thank you for submitting your application for the junior developer position at CrewAI. We truly appreciate the time and effort you invested in applying and sharing your experiences with us.  
+
+After careful consideration, we have decided to pursue other candidates for this position. Please know that this decision was not made lightly, as we were impressed by your strong foundation in React and Next.js, as well as your contributions during your internship. Your enthusiasm for developing skills in AI technologies is commendable.  
+
+We encourage you to keep building on your impressive skill set and consider applying for future opportunities with us, as your profile aligns closely with what we value in our team members.  
+
+Thank you again for your interest in CrewAI, and we wish you the best of luck in your job search and future endeavors.  
+
+Warm regards,  
+
+Sarah [Your Last Name]  
+HR Coordinator  
+CrewAI

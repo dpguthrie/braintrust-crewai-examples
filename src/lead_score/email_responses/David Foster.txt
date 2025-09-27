@@ -1,0 +1,17 @@
+Subject: Thank You for Your Application with CrewAI
+
+Dear David,
+
+I hope this message finds you well. Thank you for taking the time to apply for a position with CrewAI. We appreciate the effort you put into your application and your interest in joining our team.
+
+After careful consideration, we have decided to pursue other candidates whose skills and experiences more closely align with our current needs. However, we were genuinely impressed by your expertise in building responsive web applications and your recent exploration of AI integrations using the Vercel AI SDK.
+
+We encourage you to continue pursuing your passion for front-end technologies and AI integrations as they are highly sought after in today’s tech industry. We will keep your resume on file for future opportunities that might better match your qualifications.
+
+Thank you once again for your interest in CrewAI, and we wish you the very best in your job search and future endeavors.
+
+Warm regards,
+
+Sarah  
+HR Coordinator  
+CrewAI

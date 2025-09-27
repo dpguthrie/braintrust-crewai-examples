@@ -1,0 +1,16 @@
+Subject: Thank You for Your Interest in CrewAI
+
+Dear Sophia,
+
+I hope this message finds you well. I wanted to extend my gratitude for taking the time to apply for the position at CrewAI. It was a pleasure to learn about your passion for developing AI-powered web applications and your eagerness to grow your skills in a team environment.
+
+Although we were impressed by your enthusiasm and the initiative you've shown in building personal projects and learning React, after careful consideration, we have decided to pursue other candidates for this role.
+
+Please keep in mind that this decision was difficult due to the number of talented applicants. We encourage you to continue developing your skills and applying to future opportunities with us, as we would love to see how you continue to grow.
+
+Thank you once again for your interest in CrewAI, and we wish you continued success in your career journey.
+
+Warm regards,
+
+Sarah [Your Last Name]  
+HR Coordinator, CrewAI

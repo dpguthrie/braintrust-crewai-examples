@@ -1,0 +1,19 @@
+Subject: Thank You for Your Application  
+
+Dear Kate,  
+
+I hope this message finds you well. I would like to extend our gratitude for your interest in the position at CrewAI and for taking the time to submit your application.  
+
+Your background in front-end development and your enthusiasm for AI, especially with your experience using the Vercel AI SDK and with CrewAI, truly stand out. It's evident from your contributions that you are passionate about leveraging technology to enhance user experiences.  
+
+After careful consideration, we've decided to pursue other candidates for this position. Please know that this decision was a difficult one, as your qualifications are impressive.  
+
+We sincerely appreciate your dedication to the field and your interest in our company. We encourage you to keep an eye on future opportunities with us that better align with your skills and interests.  
+
+Thank you once again for considering a career with CrewAI. We wish you all the best in your future endeavors and hope our paths may cross again.  
+
+Warm regards,  
+
+Sarah [Your Last Name]  
+HR Coordinator  
+CrewAI

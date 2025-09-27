@@ -1,0 +1,17 @@
+Subject: Thank You for Your Application
+
+Dear Lily,
+
+I hope this message finds you well. I would like to personally thank you for taking the time to apply for the junior developer position at CrewAI. I enjoyed learning about your experience with React and your enthusiasm for contributing to AI-driven projects.
+
+While your skills and projects are impressive, we have decided to pursue other candidates who more closely match our current needs. This decision was not easy, and we appreciate the effort you put into your application. 
+
+We encourage you to continue honing your skills, especially as you learn Next.js, and we welcome future applications from you as opportunities arise.
+
+Thank you once again for your interest in CrewAI. We wish you all the best in your career endeavors.
+
+Warm regards,
+
+Sarah  
+HR Coordinator  
+CrewAI

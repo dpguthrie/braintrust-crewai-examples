@@ -1,0 +1,17 @@
+Subject: Thank You for Your Application, Tom
+
+Dear Tom,
+
+I hope this message finds you well. I want to personally thank you for taking the time to apply for the developer position at CrewAI. We were impressed with your extensive experience in building scalable web solutions and your expertise in technologies such as React and Next.js.
+
+After careful consideration, we've decided to pursue other candidates for this specific role at this point. Please know that this decision was not an easy one as we received a large number of applications from highly qualified candidates such as yourself.
+
+We truly appreciate the effort you put into your application and your interest in CrewAI. We will retain your information for future opportunities and encourage you to apply again for roles that match your skills and interests.
+
+Thank you again for considering a career with us. We wish you the best of luck in your continued job search and in all your future endeavors.
+
+Warm regards,
+
+Sarah  
+HR Coordinator  
+CrewAI
