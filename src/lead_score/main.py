@@ -195,8 +195,18 @@ def kickoff():
     """
     Run the flow.
     """
+    BRAINTRUST_PARENT = "project_name:crewai-lead-score-flow"
+    BRAINTRUST_PROJECT_NAME = BRAINTRUST_PARENT.split(":")[1]
+
+    os.environ["BRAINTRUST_PARENT"] = BRAINTRUST_PARENT
+
+    setup_tracing()
+
+    tracer = trace.get_tracer(BRAINTRUST_PROJECT_NAME)
+
     lead_score_flow = LeadScoreFlow()
-    lead_score_flow.kickoff()
+    with tracer.start_as_current_span("crew_flow"):
+        lead_score_flow.kickoff()
 
 
 def plot():
@@ -208,13 +218,4 @@ def plot():
 
 
 if __name__ == "__main__":
-    BRAINTRUST_PARENT = "project_name:crewai-lead-score-flow"
-    BRAINTRUST_PROJECT_NAME = BRAINTRUST_PARENT.split(":")[1]
-
-    os.environ["BRAINTRUST_PARENT"] = BRAINTRUST_PARENT
-
-    setup_tracing()
-
-    tracer = trace.get_tracer(BRAINTRUST_PROJECT_NAME)
-    with tracer.start_as_current_span("crew_flow"):
-        kickoff()
+    kickoff()
