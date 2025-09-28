@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import asyncio
+import logging
 import os
 from typing import List
 
@@ -13,6 +14,8 @@ from lead_score.crews.lead_score_crew.lead_score_crew import LeadScoreCrew
 from lead_score.flow_types import Candidate, CandidateScore, ScoredCandidate
 from lead_score.tracing import setup_tracing
 from lead_score.utils.candidateUtils import combine_candidates_with_scores
+
+logger = logging.getLogger(__name__)
 
 
 class LeadScoreState(BaseModel):
@@ -198,15 +201,23 @@ def kickoff():
     BRAINTRUST_PARENT = "project_name:crewai-lead-score-flow"
     BRAINTRUST_PROJECT_NAME = BRAINTRUST_PARENT.split(":")[1]
 
+    logger.info(f"BRAINTRUST_PARENT: {BRAINTRUST_PARENT}")
+    logger.info(f"BRAINTRUST_PROJECT_NAME: {BRAINTRUST_PROJECT_NAME}")
     os.environ["BRAINTRUST_PARENT"] = BRAINTRUST_PARENT
 
+    logger.info("Setting up tracing")
     setup_tracing()
+    logger.info("Tracing setup complete")
 
     tracer = trace.get_tracer(BRAINTRUST_PROJECT_NAME)
+    logger.info(f"Tracer: {tracer}")
 
+    logger.info("Starting lead score flow")
     lead_score_flow = LeadScoreFlow()
-    with tracer.start_as_current_span("crew_flow"):
+    with tracer.start_as_current_span("crew_flow") as span:
+        logger.info(f"Span: {span}")
         lead_score_flow.kickoff()
+    logger.info("Lead score flow complete")
 
 
 def plot():
