@@ -5,6 +5,7 @@ import os
 from typing import List
 
 from crewai.flow.flow import Flow, listen, or_, router, start
+from dotenv import load_dotenv
 from opentelemetry import trace
 from pydantic import BaseModel
 
@@ -16,6 +17,8 @@ from lead_score.tracing import setup_tracing
 from lead_score.utils.candidateUtils import combine_candidates_with_scores
 
 logger = logging.getLogger(__name__)
+
+load_dotenv()
 
 
 class LeadScoreState(BaseModel):
@@ -111,7 +114,7 @@ class LeadScoreFlow(Flow[LeadScoreState]):
         print("2. Redo lead scoring with additional feedback")
         print("3. Proceed with writing emails to all leads")
 
-        choice = 1
+        choice = "1"
 
         if choice == "1":
             print("Exiting the program.")
@@ -198,12 +201,11 @@ def kickoff():
     """
     Run the flow.
     """
-    BRAINTRUST_PARENT = "project_name:crewai-lead-score-flow"
+    BRAINTRUST_PARENT = os.environ["BRAINTRUST_PARENT"]
     BRAINTRUST_PROJECT_NAME = BRAINTRUST_PARENT.split(":")[1]
 
     logger.info(f"BRAINTRUST_PARENT: {BRAINTRUST_PARENT}")
     logger.info(f"BRAINTRUST_PROJECT_NAME: {BRAINTRUST_PROJECT_NAME}")
-    os.environ["BRAINTRUST_PARENT"] = BRAINTRUST_PARENT
 
     logger.info("Setting up tracing")
     setup_tracing()
